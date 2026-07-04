@@ -14,11 +14,19 @@ modules:
         - virt-manager
         - kontainer
         - docker
+        - kclock
+        - kcharselect
+        - kcolorchooser
+        - kamoso
+        - kweather
+        - kontact
+        - falkon
       exclude:
         - plasma-discover-packagekit
         - plasma-discover-rpm-ostree
         - plasma-discover-snap
         - plasma-discover-offline-updates
+        - plasma-discover-flatpak
     repos:
       files:
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
@@ -30,6 +38,9 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
+          - org.mozilla.thunderbird
           - org.libreoffice.LibreOffice
           - org.strawberrymusicplayer.strawberry
+          - org.kde.krita
+          - org.kde.kdenlive
       - scope: user # Also add Flathub user repo, but no user packages
