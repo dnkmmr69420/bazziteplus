@@ -1,0 +1,8 @@
+name: bazzite-dx-plus
+description: BazziteDX Plus variant
+
+base-image: ghcr.io/ublue-os/bazzite-dx:latest
+image-version: latest
+
+modules:
+  - from file: recipe-core.yml
