@@ -1,7 +1,7 @@
-name: bazzite-desktop-nvidia-plus
+name: bazzite-desktop-nvidia-classic-plus
 description: Bazzite Plus desktop NVIDIA closed source driver variant
 
-base-image: ghcr.io/ublue-os/bazzite-nvidia:latest
+base-image: ghcr.io/ublue-os/bazzite-nvidia
 image-version: latest
 
 modules:
