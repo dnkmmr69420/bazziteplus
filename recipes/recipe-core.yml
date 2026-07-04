@@ -19,8 +19,7 @@ modules:
         - kamoso
         - kweather
         - kontact
-        - firefox
-        - firefoxpwa
+        - falkon
       exclude:
         - plasma-discover-packagekit
         - plasma-discover-rpm-ostree
@@ -30,8 +29,7 @@ modules:
     repos:
       files:
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
-        - firefoxpwa.repo
-
+        
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
