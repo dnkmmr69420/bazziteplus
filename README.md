@@ -1,12 +1,16 @@
 ### This is [Bazzite](https://github.com/ublue-os/bazzite) with some extras added onto it.
 
-# BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
-
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
-
-After setup, it is recommended you update this README to describe your custom image.
+[Bluebuild](https://blue-build.org/) is the backend for this project
 
 ## Installation
+
+### First, if you aren't on Bazzite or other forms of Fedora Atmoic, Download the Bazzite ISO and install Bazzite
+If you are already on Bazzite or Fedora Atomic (KDE), you can skip this
+
+[Download Bazzite](https://bazzite.gg/)
+
+
+## Rebase to Bazzite Plus
 
 ### Rebase commands
 
