@@ -13,11 +13,15 @@ modules:
         - libvirt
         - virt-manager
         - kontainer
+        - docker
       exclude:
         - plasma-discover-packagekit
         - plasma-discover-rpm-ostree
         - plasma-discover-snap
         - plasma-discover-offline-updates
+    repos:
+      files:
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 
   - type: default-flatpaks
     configurations:
