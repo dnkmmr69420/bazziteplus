@@ -30,6 +30,7 @@ jobs:
           - recipe-desktop.yml
           - recipe-desktop-nvidia.yml
           - recipe-deck.yml
+          - recipe-dx.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
