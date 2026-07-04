@@ -15,13 +15,13 @@ After setup, it is recommended you update this README to describe your custom im
 Rebase to desktop version
 
 ```bash
-rpm-ostree rebase ghcr.io/dnkmmr69420/bazzite-desktop-plus:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/dnkmmr69420/bazzite-desktop-plus:latest
 ```
 
 Rebase to deck version
 
 ```bash
-rpm-ostreee rebase ghcr.io/dnkmmr69420/bazzite-deck-plus:latest
+rpm-ostreee rebase ostree-unverified-registry:ghcr.io/dnkmmr69420/bazzite-deck-plus:latest
 ```
 
 #### NVIDIA GPU
@@ -29,5 +29,5 @@ rpm-ostreee rebase ghcr.io/dnkmmr69420/bazzite-deck-plus:latest
 Desktop version
 
 ```bash
-rpm-ostree rebase ghcr.io/dnkmmr69420/bazzite-desktop-nvidia-plus:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/dnkmmr69420/bazzite-desktop-nvidia-plus:latest
 ```
