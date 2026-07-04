@@ -19,7 +19,8 @@ modules:
         - kamoso
         - kweather
         - kontact
-        - falkon
+        - firefox
+        - firefoxpwa
       exclude:
         - plasma-discover-packagekit
         - plasma-discover-rpm-ostree
@@ -29,6 +30,7 @@ modules:
     repos:
       files:
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+        - firefoxpwa.repo
 
   - type: default-flatpaks
     configurations:
@@ -39,7 +41,15 @@ modules:
           - org.mozilla.firefox
           - org.mozilla.thunderbird
           - org.libreoffice.LibreOffice
-          - org.strawberrymusicplayer.strawberry
-          - org.kde.krita
-          - org.kde.kdenlive
+          - it.mijorus.gearlever
+          - com.github.tchx84.Flatseal
+          - io.github.flattool.Warehouse
+          - net.davidotek.pupgui2
+          - org.freedesktop.Platform.VulkanLayer.MangoHud//23.08
+          - org.freedesktop.Platform.VulkanLayer.vkBasalt//23.08
+          - org.freedesktop.Platform.VulkanLayer.OBSVkCapture//23.08
+          - com.obsproject.Studio.Plugin.OBSVkCapture
+          - com.obsproject.Studio.Plugin.Gstreamer
+          - com.obsproject.Studio.Plugin.GStreamerVaapi
+          - io.github.rfrench3.scopebuddy-gui
       - scope: user # Also add Flathub user repo, but no user packages
