@@ -1,7 +1,7 @@
 name: bazzite-desktop-nvidia-plus
 description: Bazzite Plus desktop NVIDIA variant
 
-base-image: hcr.io/ublue-os/bazzite-nvidia-open:latest
+base-image: ghcr.io/ublue-os/bazzite-nvidia-open:latest
 image-version: latest
 
 modules:
