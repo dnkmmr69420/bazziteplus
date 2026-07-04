@@ -1,0 +1,26 @@
+# Shared recipe for all variants
+
+modules:
+  - type: dnf
+    install:
+      packages:
+        - plasma-discover
+        - plasma-discover-flatpak
+        - gwenview
+        - haruna
+        - kcalc
+        - qemu
+        - libvirt
+        - virt-manager
+        - kontainer
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true # Send notification after install/uninstall is finished (true/false)
+        scope: system
+        # If no repo information is specified, Flathub will be used by default
+        install: # system flatpaks we want all users to have and not remove
+          - org.mozilla.firefox
+          - org.libreoffice.LibreOffice
+          - org.strawberrymusicplayer.strawberry
+      - scope: user # Also add Flathub user repo, but no user packages
