@@ -1,5 +1,5 @@
-
 name: bazzite-desktop-plus
+description: Bazzite Plus desktop variant
 
 base-image: ghcr.io/ublue-os/bazzite
 image-version: latest
