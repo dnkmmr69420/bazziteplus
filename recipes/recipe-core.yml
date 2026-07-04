@@ -38,8 +38,6 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-          - org.mozilla.firefox
-          - org.mozilla.thunderbird
           - org.libreoffice.LibreOffice
           - it.mijorus.gearlever
           - com.github.tchx84.Flatseal
