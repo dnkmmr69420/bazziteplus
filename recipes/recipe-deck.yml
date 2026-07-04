@@ -1,4 +1,5 @@
 name: bazzite-deck-plus
+description: Bazzite Plus deck variant 
 
 base-image: ghcr.io/ublue-os/bazzite-deck
 image-version: latest
