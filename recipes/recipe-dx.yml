@@ -1,7 +1,7 @@
 name: bazzite-dx-plus
 description: BazziteDX Plus variant
 
-base-image: ghcr.io/ublue-os/bazzite-dx:latest
+base-image: ghcr.io/ublue-os/bazzite-dx
 image-version: latest
 
 modules:
