@@ -1,1 +1,7 @@
+name: bazzite-desktop-nvidia-plus
 
+base-image: ghcr.io/ublue-os/bazzite
+image-version: latest
+
+modules:
+  - from-file: recipe-core.yml
