@@ -1,1 +1,7 @@
+name: bazzite-deck-plus
 
+base-image: ghcr.io/ublue-os/bazzite-deck
+image-version: latest
+
+modules:
+  - from-file: recipe-core.yml
