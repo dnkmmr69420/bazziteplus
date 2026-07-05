@@ -2,7 +2,19 @@
 
 [Bluebuild](https://blue-build.org/) is the backend for this project
 
-## Installation
+# Project information
+
+This is Bazzite with extras added onto it, this is still Bazzite but some things were added onto the base image
+
+## Additions
+Bazzite Plus has the following added onto it
+
+- Brave is part of the system image for better intergration and performance.
+- Several KDE apps are included in the image as well such as Gwenview, Haruna, Kontact, Weather, Clock, KCalc, and Kontainer
+- Virt-manager, libvirt, and qemu are part of the image
+
+
+# Installation
 
 ### First, if you aren't on Bazzite or other forms of Fedora Atmoic, Download the Bazzite ISO and install Bazzite
 If you are already on Bazzite or Fedora Atomic (KDE), you can skip this. I also have no plans to ship out ISOs (especially since this here is Bazzite but with a few extras). This one is also KDE only as well.
