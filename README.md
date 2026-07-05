@@ -5,7 +5,7 @@
 ## Installation
 
 ### First, if you aren't on Bazzite or other forms of Fedora Atmoic, Download the Bazzite ISO and install Bazzite
-If you are already on Bazzite or Fedora Atomic (KDE), you can skip this
+If you are already on Bazzite or Fedora Atomic (KDE), you can skip this. I also have no plans to ship out ISOs (especially since this here is Bazzite but with a few extras). This one is also KDE only as well.
 
 [Download Bazzite](https://bazzite.gg/)
 
@@ -34,4 +34,10 @@ Desktop version
 
 ```bash
 rpm-ostree rebase ostree-unverified-registry:ghcr.io/dnkmmr69420/bazzite-desktop-nvidia-plus:latest
+```
+
+Deck Version
+
+```bash
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/dnkmmr69420/bazzite-deck-nvidia-plus:latest
 ```
