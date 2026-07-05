@@ -32,8 +32,6 @@ jobs:
           - recipe-desktop-nvidia-classic.yml
           - recipe-deck.yml
           - recipe-deck-nvidia.yml
-          - recipe-dx.yml
-          - recipe-dx-nvidia.yml
           
     steps:
       # the build is fully handled by the reusable github action
